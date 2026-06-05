@@ -1,0 +1,134 @@
+/* Global Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body Styling */
+
+body{
+    font-family:Segoe UI,sans-serif;
+    background:#070d1b;
+    color:white;
+    overflow-x:hidden;
+}
+
+/* Navigation */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 7%;
+    background:rgba(255,255,255,0.05);
+    backdrop-filter:blur(15px);
+}
+
+/* Logo */
+
+.logo{
+    font-size:1.7rem;
+    font-weight:bold;
+}
+
+/* Navigation Links */
+
+.nav-links{
+    display:flex;
+    gap:25px;
+    list-style:none;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:#8f6cff;
+}
+
+/* Hero Section */
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px;
+}
+
+/* Hero Heading */
+
+.hero h1{
+    font-size:4rem;
+}
+
+/* Highlight Text */
+
+.hero span{
+    color:#8f6cff;
+}
+
+/* Paragraph */
+
+.hero p{
+    margin-top:20px;
+    font-size:1.2rem;
+}
+
+/* Buttons */
+
+.hero-buttons{
+    margin-top:30px;
+}
+
+.btn-primary{
+    background:#8f6cff;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:50px;
+    cursor:pointer;
+}
+
+.btn-secondary{
+    margin-left:15px;
+    background:transparent;
+    border:2px solid white;
+    color:white;
+    padding:15px 30px;
+    border-radius:50px;
+}
+
+/* Features */
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+    padding:80px 7%;
+}
+
+.card{
+    background:rgba(255,255,255,0.05);
+    padding:30px;
+    border-radius:20px;
+    backdrop-filter:blur(10px);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+/* Footer */
+
+footer{
+    text-align:center;
+    padding:30px;
+}
